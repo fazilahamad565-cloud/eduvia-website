@@ -1,0 +1,399 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Eduvia</title>
+<style>
+  :root {
+    --primary: #0C447C;
+    --primary-light: #1B6FC9;
+    --accent: #6C5CE7;
+    --bg: #F7F9FC;
+    --surface: #FFFFFF;
+    --text: #1A1F36;
+    --text-secondary: #5B6478;
+    --border: #E5E9F0;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.65;
+  }
+
+  .topbar {
+    height: 6px;
+    background: linear-gradient(90deg, var(--primary) 0%, var(--primary-light) 45%, var(--accent) 100%);
+  }
+
+  header.hero {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 56px 24px 32px;
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 28px;
+  }
+
+  .brand-mark {
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    flex-shrink: 0;
+  }
+
+  .brand-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text);
+    letter-spacing: -0.01em;
+  }
+
+  h1 {
+    font-size: 34px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    margin: 0 0 10px;
+    color: var(--text);
+  }
+
+  .effective-date {
+    color: var(--text-secondary);
+    font-size: 14px;
+    margin: 0;
+  }
+
+  .intro {
+    margin-top: 20px;
+    color: var(--text-secondary);
+    font-size: 16px;
+    max-width: 65ch;
+  }
+
+  main {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 48px;
+  }
+
+  nav.toc {
+    position: sticky;
+    top: 32px;
+    align-self: start;
+    font-size: 13.5px;
+  }
+
+  nav.toc a {
+    display: block;
+    color: var(--text-secondary);
+    text-decoration: none;
+    padding: 6px 0;
+    border-left: 2px solid var(--border);
+    padding-left: 12px;
+    transition: color 0.15s, border-color 0.15s;
+  }
+
+  nav.toc a:hover,
+  nav.toc a:focus-visible {
+    color: var(--primary);
+    border-left-color: var(--primary);
+  }
+
+  article {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 40px;
+  }
+
+  section {
+    margin-bottom: 36px;
+    scroll-margin-top: 24px;
+  }
+
+  section:last-child {
+    margin-bottom: 0;
+  }
+
+  h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--text);
+    margin: 0 0 14px;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+
+  h2 .num {
+    color: var(--primary);
+    font-variant-numeric: tabular-nums;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text);
+    margin: 20px 0 8px;
+  }
+
+  p {
+    margin: 0 0 14px;
+    color: var(--text-secondary);
+    font-size: 15px;
+  }
+
+  ul {
+    margin: 0 0 14px;
+    padding-left: 20px;
+    color: var(--text-secondary);
+    font-size: 15px;
+  }
+
+  li {
+    margin-bottom: 6px;
+  }
+
+  strong {
+    color: var(--text);
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 8px 0 18px;
+    font-size: 14px;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border);
+    color: var(--text-secondary);
+  }
+
+  th {
+    color: var(--text);
+    font-weight: 700;
+    background: var(--bg);
+  }
+
+  .contact-box {
+    background: var(--bg);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-top: 8px;
+  }
+
+  .contact-box p {
+    margin: 0 0 6px;
+  }
+
+  .contact-box a {
+    color: var(--primary);
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .contact-box a:hover { text-decoration: underline; }
+
+  footer {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 0 24px 60px;
+    color: var(--text-secondary);
+    font-size: 13px;
+  }
+
+  @media (max-width: 720px) {
+    main { grid-template-columns: 1fr; }
+    nav.toc { display: none; }
+    article { padding: 28px 20px; }
+    h1 { font-size: 27px; }
+  }
+</style>
+</head>
+<body>
+
+  <div class="topbar"></div>
+
+  <header class="hero">
+    <div class="brand">
+      <div class="brand-mark">E</div>
+      <div class="brand-name">Eduvia</div>
+    </div>
+    <h1>Privacy Policy</h1>
+    <p class="effective-date">Effective date: July 30, 2026</p>
+    <p class="intro">
+      This policy explains what information Eduvia collects when you use our app and admin panel,
+      why we collect it, and the choices you have. We built Eduvia to help coaching centers run
+      smoothly for students, teachers, and administrators — this document is here so you always
+      know what's happening with your data.
+    </p>
+  </header>
+
+  <main>
+    <nav class="toc" aria-label="Table of contents">
+      <a href="#information-we-collect">1. Information we collect</a>
+      <a href="#how-we-use-it">2. How we use it</a>
+      <a href="#third-party-services">3. Third-party services</a>
+      <a href="#sharing">4. Sharing &amp; disclosure</a>
+      <a href="#security">5. Data security</a>
+      <a href="#retention">6. Data retention</a>
+      <a href="#children">7. Children's privacy</a>
+      <a href="#your-rights">8. Your rights</a>
+      <a href="#notifications">9. Push notifications</a>
+      <a href="#changes">10. Changes to this policy</a>
+      <a href="#contact">11. Contact us</a>
+    </nav>
+
+    <article>
+
+      <section id="information-we-collect">
+        <h2><span class="num">1.</span> Information we collect</h2>
+        <p>We collect information you provide directly, information generated as you use the app, and information from the services we rely on to run Eduvia.</p>
+
+        <h3>Account information</h3>
+        <ul>
+          <li>Full name, email address, and phone number</li>
+          <li>Password (stored as a one-way cryptographic hash — we never store or see your plain-text password)</li>
+          <li>Profile photo, if you choose to upload one</li>
+        </ul>
+
+        <h3>Admission &amp; academic information</h3>
+        <ul>
+          <li>Date of birth, gender, address, current grade, and school name</li>
+          <li>Parent or guardian name and phone number</li>
+          <li>Course enrollments, attendance records, test scores and results</li>
+          <li>Fee and payment records (amounts and status — we do not store your card, UPI, or bank details; those are handled directly by our payment processor)</li>
+        </ul>
+
+        <h3>Content you create</h3>
+        <ul>
+          <li>Questions you submit to the AI doubt-assistant feature</li>
+          <li>Any documents or images you upload</li>
+        </ul>
+
+        <h3>Device &amp; technical information</h3>
+        <ul>
+          <li>A push-notification token so we can deliver notices and updates to your device</li>
+          <li>Basic technical data such as app version and device type, used only for debugging and reliability</li>
+        </ul>
+      </section>
+
+      <section id="how-we-use-it">
+        <h2><span class="num">2.</span> How we use it</h2>
+        <ul>
+          <li>To create and manage your account, and to verify who you are when you sign in</li>
+          <li>To operate core features: courses, tests, attendance, fees, admissions, and notices</li>
+          <li>To answer questions through the AI doubt-assistant</li>
+          <li>To send you notices, reminders, and important updates from your coaching center</li>
+          <li>To process payments for course fees</li>
+          <li>To keep the app secure and to detect and prevent misuse</li>
+        </ul>
+        <p>We do not sell your personal information, and we do not use it for third-party advertising.</p>
+      </section>
+
+      <section id="third-party-services">
+        <h2><span class="num">3.</span> Third-party services we use</h2>
+        <p>Eduvia relies on a small number of trusted service providers to operate. Each only receives the data it needs to perform its specific job.</p>
+        <table>
+          <tr><th>Service</th><th>Purpose</th><th>Data involved</th></tr>
+          <tr><td>Cloudinary</td><td>Stores profile photos and uploaded documents</td><td>Images/files you upload</td></tr>
+          <tr><td>Firebase Cloud Messaging (Google)</td><td>Delivers push notifications</td><td>Device notification token</td></tr>
+          <tr><td>Razorpay</td><td>Processes fee payments</td><td>Payment amount and status (not your card/bank details)</td></tr>
+          <tr><td>Groq</td><td>Powers the AI doubt-assistant</td><td>The question text you submit</td></tr>
+        </table>
+        <p>These providers are contractually and technically limited to using your data only to provide their service to us — not for their own independent purposes.</p>
+      </section>
+
+      <section id="sharing">
+        <h2><span class="num">4.</span> Sharing &amp; disclosure</h2>
+        <p>Within your coaching center, information is visible on a need-to-know basis:</p>
+        <ul>
+          <li><strong>Admins</strong> can view student records, fees, attendance, and admissions for their center</li>
+          <li><strong>Teachers</strong> can view information relevant to the courses and students they teach</li>
+          <li><strong>Students</strong> can only view their own personal, academic, and fee information</li>
+        </ul>
+        <p>We disclose information outside Eduvia only: to the third-party services listed above, when required by law, or with your consent.</p>
+      </section>
+
+      <section id="security">
+        <h2><span class="num">5.</span> Data security</h2>
+        <p>We take reasonable technical measures to protect your information, including:</p>
+        <ul>
+          <li>Passwords stored as salted cryptographic hashes, never in plain text</li>
+          <li>All traffic between the app and our servers encrypted in transit (HTTPS)</li>
+          <li>Access to administrative functions restricted by role-based permissions</li>
+          <li>Rate-limiting and monitoring to guard against unauthorized access attempts</li>
+        </ul>
+        <p>No method of transmission or storage is 100% secure, but we work to protect your information using industry-standard practices.</p>
+      </section>
+
+      <section id="retention">
+        <h2><span class="num">6.</span> Data retention</h2>
+        <p>We retain your information for as long as your account is active, and for a reasonable period afterward to meet academic record-keeping, financial, and legal obligations. You may request deletion of your account as described in Section 8.</p>
+      </section>
+
+      <section id="children">
+        <h2><span class="num">7.</span> Children's privacy</h2>
+        <p>Eduvia is used by students who may be minors, in the context of a coaching center relationship with parental or institutional oversight. Accounts for students under 18 are expected to be created and supervised with the involvement of a parent, guardian, or the coaching center itself. We collect only the information needed to provide academic services, and we do not use children's information for advertising.</p>
+      </section>
+
+      <section id="your-rights">
+        <h2><span class="num">8.</span> Your rights &amp; choices</h2>
+        <ul>
+          <li><strong>Access &amp; correction:</strong> You can view and update your profile information directly in the app.</li>
+          <li><strong>Deletion:</strong> You can request deletion of your account and associated personal data by contacting us below.</li>
+          <li><strong>Notifications:</strong> You can disable push notifications at any time from your device settings.</li>
+        </ul>
+      </section>
+
+      <section id="notifications">
+        <h2><span class="num">9.</span> Push notifications</h2>
+        <p>With your permission, we send push notifications for notices, fee reminders, and important updates from your coaching center. You can turn these off anytime in your device's notification settings.</p>
+      </section>
+
+      <section id="changes">
+        <h2><span class="num">10.</span> Changes to this policy</h2>
+        <p>We may update this policy from time to time as Eduvia's features evolve. If we make material changes, we'll update the effective date above and, where appropriate, notify you in the app.</p>
+      </section>
+
+      <section id="contact">
+        <h2><span class="num">11.</span> Contact us</h2>
+        <p>If you have questions about this policy or how your data is handled, reach out:</p>
+        <div class="contact-box">
+          <p>📧 <a href="mailto:fazilahamad565@gmail.com">fazilahamad565@gmail.com</a></p>
+          <p>📞 <a href="tel:+918867241490">+91 88672 41490</a></p>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <footer>
+    © 2026 Eduvia. All rights reserved.
+  </footer>
+
+</body>
+</html>
